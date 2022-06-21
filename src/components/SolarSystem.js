@@ -2,6 +2,7 @@ import React from 'react';
 import PlanetCard from './PlanetCard';
 import Title from './Title';
 import planets from '../data/planets';
+import Missions from './Missions';
 
 class SolarSystem extends React.Component {
   render() {
@@ -17,6 +18,7 @@ class SolarSystem extends React.Component {
             />))
           }
         </section>
+        <Missions />
       </div>
     );
   }
