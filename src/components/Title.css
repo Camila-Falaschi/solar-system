@@ -1,4 +1,4 @@
-.box {
+.title {
   background-color: black;
   border: 1px solid grey;
   border-radius: 20px;
@@ -6,4 +6,5 @@
   font-size: 2em;
   padding: 30px;
   text-align: center;
+  width: 80%;
 }

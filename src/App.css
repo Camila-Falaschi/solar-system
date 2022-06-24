@@ -3,17 +3,11 @@
   padding: 0;
 }
 
-.App {
-  text-align: center;
-}
-
 .body {
   align-items: center;
   background: url('images/background.png');
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-
-  /* padding: 5%; */
+  gap: 80px;
 }

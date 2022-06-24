@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import '../box.css';
+import './Title.css';
 
 class Title extends React.Component {
   render() {
     const { headline } = this.props;
-    return <h2 className="box">{headline}</h2>;
+    return <h2 className="title">{headline}</h2>;
   }
 }
 
